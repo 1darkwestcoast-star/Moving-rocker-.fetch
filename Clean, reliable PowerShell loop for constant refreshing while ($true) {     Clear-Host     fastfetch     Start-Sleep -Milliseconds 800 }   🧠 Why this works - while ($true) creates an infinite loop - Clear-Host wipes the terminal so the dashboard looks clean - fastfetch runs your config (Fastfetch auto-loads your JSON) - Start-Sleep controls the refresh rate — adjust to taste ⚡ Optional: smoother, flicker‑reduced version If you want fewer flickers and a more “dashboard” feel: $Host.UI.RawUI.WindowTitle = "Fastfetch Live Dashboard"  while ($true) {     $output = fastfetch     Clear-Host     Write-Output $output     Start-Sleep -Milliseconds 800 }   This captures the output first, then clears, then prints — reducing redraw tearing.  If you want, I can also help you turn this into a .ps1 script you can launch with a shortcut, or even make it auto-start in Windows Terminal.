@@ -1,0 +1,5 @@
+while ($true) {
+    Clear-Host
+    fastfetch
+    Start-Sleep -Milliseconds 800
+}
