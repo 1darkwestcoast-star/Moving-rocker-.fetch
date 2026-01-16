@@ -1,0 +1,139 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "file",
+    "source": "C:/Users/Kolby/Downloads/ascii-art.txt"
+  },
+
+  "modules": [
+    {
+      "type": "wifi",
+      "key": "☐",
+      "format": "{1}\n{4}% {4:bar:8}"
+    },
+
+    {
+      "type": "publicip",
+      "key": "  | ",
+      "keyColor": "34"
+    },
+    {
+      "type": "bandwidth",
+      "key": "  0 ",
+      "keyColor": "34",
+      "format": "Up: {1}  Down: {2}"
+    },
+    {
+      "type": "netio",
+      "key": "  ☐ ",
+      "keyColor": "34",
+      "format": "{1}: ↑{3}/s ↓{4}/s"
+    },
+    {
+      "type": "ping",
+      "key": "  ☐ ",
+      "keyColor": "34",
+      "format": "1.1.1.1 → {1} ms"
+    },
+
+    "break",
+
+    {
+      "type": "colors",
+      "symbol": "circle"
+    },
+
+    {
+      "type": "localip",
+      "key": "  O ",
+      "keyColor": "34"
+    },
+    {
+      "type": "wifi",
+      "key": "  D ",
+      "keyColor": "34",
+      "format": "{1} ({4}%) {3}GHz"
+    },
+    {
+      "type": "bandwidth",
+      "key": "  0 ",
+      "keyColor": "34",
+      "format": "Up: {1}  Down: {2}"
+    },
+    {
+      "type": "netio",
+      "key": "  ☐ ",
+      "keyColor": "34",
+      "format": "{1}: ↑{3}/s ↓{4}/s"
+    },
+
+    "break",
+
+    {
+      "type": "title",
+      "keyWidth": 10
+    },
+    {
+      "type": "os",
+      "key": "  | ",
+      "keyColor": "34",
+      "format": "{2}"
+    },
+    {
+      "type": "kernel",
+      "key": "  O ",
+      "keyColor": "34"
+    },
+    {
+      "type": "packages",
+      "key": "  D ",
+      "keyColor": "34",
+      "format": "{} (pkg)"
+    },
+    {
+      "type": "shell",
+      "key": "  0 ",
+      "keyColor": "34"
+    },
+    {
+      "type": "terminal",
+      "key": "  ☐ ",
+      "keyColor": "34"
+    },
+    {
+      "type": "wm",
+      "key": "  ☐ ",
+      "keyColor": "34"
+    },
+    {
+      "type": "font",
+      "key": "  ☐ ",
+      "keyColor": "34",
+      "format": "{1}"
+    },
+    {
+      "type": "uptime",
+      "key": "  O ",
+      "keyColor": "34"
+    },
+    {
+      "type": "datetime",
+      "key": "  D ",
+      "keyColor": "34",
+      "format": "{1}-{3}-{11}"
+    },
+    {
+      "type": "memory",
+      "key": "  O ",
+      "keyColor": "34"
+    },
+
+    "break",
+
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}
