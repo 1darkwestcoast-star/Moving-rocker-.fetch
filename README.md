@@ -1,0 +1,4 @@
+Open Powershell only and begin your linux session
+///////////////////////////////
+wsl -d kali-linux
+//////////////////////////////
