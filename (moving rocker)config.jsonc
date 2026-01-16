@@ -134,6 +134,13 @@
     {
       "type": "colors",
       "symbol": "circle"
-    }
+    },
+
+{
+  "type": "custom",
+  "format": "BUm bUM Bum Bum"
+}
+
+
   ]
 }
